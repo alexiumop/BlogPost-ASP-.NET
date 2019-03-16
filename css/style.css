@@ -141,7 +141,7 @@ a {
 
 a, a > * {
 	text-decoration: none;
-	color: #fff;
+	color: #000000;
 }
 
 /*a:hover {
@@ -330,7 +330,7 @@ h7{
 	blockquote.type-1 { background-color: #ededed; }
 		
 	blockquote.type-2 {
-		background-color: #f85c37;
+		background-color: #325CFF;
 		color: #fff;
 	}
 	
@@ -4302,7 +4302,7 @@ reading-box_footer {
 				margin-right: 1px;
 				margin-bottom: 1px;
 				padding: 14px 35px;
-				background-color: #ededed;
+				background-color: #325CFF;
 				color: #262626;
 				text-align: center;
 				text-transform: uppercase;
@@ -4319,12 +4319,12 @@ reading-box_footer {
 			.widget .tabs-nav li a { padding: 14px 10px; }
 			
 			.tabs-nav li a:hover {
-				background-color: #262626;
+				background-color: #325CFF;
 				color: #fff;
 			}
 			
 			.tabs-nav li.active a {
-				background-color: #f85c37;
+				background-color: #325CFF;
 				color: #fff;
 			}
 
@@ -4570,3 +4570,10 @@ reading-box_footer {
 	}
 	
 	#back-top:hover:after { color: #fff; }
+
+	.color-top {
+		background-color: #325CFF !important;
+	}
+    .color-code-2 {
+    	color: #ABACB8;
+    }
