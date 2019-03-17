@@ -139,8 +139,130 @@
 
                                             Visual Studio supports 36 different programming languages and allows the code editor and debugger to support (to varying degrees) nearly any programming language, provided a language-specific service exists. Built-in languages include C, C++, C++/CLI, Visual Basic .NET, C#, F#, JavaScript, TypeScript, XML, XSLT, HTML, and CSS. Support for other languages such as Python, Ruby, Node.js, and M among others is available via plug-ins. Java (and J#) were supported in the past. 
                                         </p>
-                                    <h2>Steps to Install Docker in Window 10</h2>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Rc7glcM3D8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        Now that we know tha what is visual studio, continue with the installation process step by step.
+
+                                        <h2><strong>Step 1 - Check Systems requirements</strong></h2>
+                                        <P style="text-align: justify;">
+                                        	<div class="table-scroll-wrapper"><table border="1">
+<tbody><tr>
+  <td><p><strong>Supported Operating Systems</strong></p></td>
+  <td><p class="x-hidden-focus">Visual Studio 2017 will install and run on the following operating systems:</p>
+    <ul>
+      <li>Windows 10 version 1507 or higher: Home, Professional, Education, and Enterprise (LTSC and S are not supported)</li>
+      <li>Windows Server 2016: Standard and Datacenter</li>
+      <li>Windows 8.1 (with <a href="https://support.microsoft.com/kb/2919355" data-linktype="external">Update 2919355</a>): Core, Professional, and Enterprise</li>
+      <li>Windows Server 2012 R2 (with <a href="https://support.microsoft.com/kb/2919355" data-linktype="external">Update 2919355</a>): Essentials, Standard, Datacenter</li>
+      <li>Windows 7 SP1 (with latest Windows Updates): Home Premium, Professional, Enterprise, Ultimate</li>
+  </ul></td>
+</tr>
+<tr>
+  <td><p><strong>Hardware</strong></p></td>
+  <td>
+    <ul>
+      <li>1.8 GHz or faster processor. Dual-core or better recommended</li>
+      <li>2 GB of RAM; 4 GB of RAM recommended (2.5 GB minimum if running on a virtual machine)</li>
+      <li>Hard disk space: up to 130 GB of available space, depending on features installed; typical installations require 20-50 GB of free space.</li>
+      <li>Hard disk speed: to improve performance, install Windows and Visual Studio on a solid state drive (SSD).</li>
+      <li>Video card that supports a minimum display resolution of 720p (1280 by 720); Visual Studio will work best at a resolution of WXGA (1366 by 768) or higher.</li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td><p><strong>Supported Languages</strong></p></td>
+  <td>
+    <p>Visual Studio is available in English, Chinese (Simplified), Chinese (Traditional), Czech, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, Spanish, and Turkish.</p>
+    <p>You can select the language of Visual Studio during installation. The Visual Studio Installer is available in the same fourteen languages, and will match the language of Windows, if available.</p>
+    <p><strong>Note:</strong> Visual Studio Team Foundation Server Office Integration 2017 is available in the ten languages supported by Visual Studio Team Foundation Server 2017.</p>
+  </td>
+</tr>
+<tr>
+  <td><p><strong>Additional Requirements</strong></p></td>
+  <td>
+    <ul>
+      <li>Administrator rights are required to install Visual Studio.</li>
+      <li>.NET Framework 4.5 is required to install Visual Studio. Visual Studio requires .NET Framework 4.6.1, 
+          which will be installed during setup.</li>
+      <li><a href="https://technet.microsoft.com/itpro/windows/manage/waas-overview" data-linktype="external">Windows 10 Enterprise LTSC edition</a> and <a href="https://www.microsoft.com/windows/windows-10-s" data-linktype="external">Windows 10 S</a> are not supported for development. 
+          You may use Visual Studio 2017 to build apps that run on Windows 10 LTSC and Windows 10 S.</li>
+      <li>Internet Explorer 11 or Edge is required for internet-related scenarios. <a href="https://go.microsoft.com/fwlink/?linkid=833023" data-linktype="external">Some features</a> 
+          might not work unless these, or a later version, are installed.</li>
+      <li>For emulator support, Windows 8.1 Pro or Enterprise (x64) editions are required. A processor that supports 
+          Client Hyper-V and Second Level Address Translation (SLAT) is also required.</li>
+      <li>Universal Windows app development, including designing, editing, and debugging, requires Windows 10. Windows Server 2016 and Windows Server 2012 R2 
+          may be used to build Universal Windows apps from the command line.</li>
+      <li>The Server Core and Minimal Server Interface options are not supported when running Windows Server.</li>
+      <li>Windows containers are not supported, except for <a href="#microsoft-visual-studio-build-tools-2017" data-linktype="self-bookmark">Visual Studio 2017 Build Tools</a>.</li>
+      <li>Team Foundation Server 2017 Office Integration requires Office 2016, Office 2013, or Office 2010.</li>
+      <li>Xamarin.Android requires a 64-bit edition of Windows and the 64-bit Java Development Kit (JDK).</li> 
+      <li>PowerShell 3.0 or higher is required on Windows 7 SP1 to install the Mobile Development with C++, JavaScript, or .NET workloads.</li>
+    </ul>
+  </td>
+</tr>
+</tbody></table></div>
+                               <h2><strong>Step 2 - Download Visual Studio</strong></h2>
+                                <p style="text-align: justify;">
+                                	Next, download the Visual Studio bootstrapper file. To do so, click the following button, select the edition of Visual Studio 2017 that you want, click Save, and then click Open folder.
+
+                                	<br>
+
+                                	<a target="_blank" class="button default" href="https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017"><i class="icon-download-alt"></i> Download Visual Studio</a> 
+                                </p>
+                                        </P>
+                                <h2><strong>Step 3 - Install the visual studio Installer</strong></h2>
+                                <p style="text-align: justify;">
+                                	Then, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio 2017.
+
+                                	<ol>
+                                   <li>From your <strong>Downloads</strong> folder, double-click the bootstrapper that matches or is similar to one of the following files:
+                                   <ul>
+                                   <li><strong>vs_enterprise.exe</strong> for Visual Studio Enterprise</li>
+                                   <li><strong>vs_professional.exe</strong> for Visual Studio Professional</li>
+                                   <li><strong>vs_community.exe</strong> for Visual Studio Community</li>
+                                   </ul>
+                                   If you receive a User Account Control notice, click <strong>Yes</strong>.
+                                   </li>
+                                   <li>We'll ask you to acknowledge the Microsoft <a href="https://visualstudio.microsoft.com/license-terms/" data-linktype="external">License Terms</a> and the Microsoft <a href="https://privacy.microsoft.com/privacystatement" data-linktype="external">Privacy Statement</a>. Click <strong>Continue</strong>.
+ 
+                                   </li>
+                                   </ol>
+                                   <div class="entry-media animate shake">
+                                   	<img src="images/content/install1.png">
+
+                                   </div>
+                                </p>
+                                 <h2><strong>Step 4 - Install the visual studio Installer</strong></h2>
+                                <p style="text-align: justify;">
+                                	
+                                	<ol>
+                                    <li>Find the workload you want in the <strong>Installing Visual Studio</strong> screen.
+                                    <img src="images/content/install2.png" class="animate shake">
+                                    For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
+                                    </li>
+                                    <li>After you select the workload(s) you want, click <strong>Install</strong>.
+                                    Next, status screens appear that show the progress of your Visual Studio installation.
+                                    </li>
+                                    <li>After the new workloads and components are installed, click <strong>Launch</strong>.
+                                    </li>
+                                    </ol>
+                                    <blockquote class="type-1 quote-text">
+                                    	At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to Tools > Get Tools and Features... which opens the Visual Studio Installer. Or, open Visual Studio Installer from the Start menu. From there, you can select the workloads or components that you wish to install, then click Modify.
+                                    </blockquote>
+                                </p>
+                                <h2><strong>Step 5 - Run the aplication</strong></h2> 
+                                <p style="text-align: justify;">
+                                	<ol>
+                                    <li>After Visual Studio installation is complete, click the <strong>Launch</strong> button to get started developing with Visual Studio.
+                                    </li>
+                                    <li>Click <strong>File</strong>, and then click <strong>New Project</strong>.
+                                    </li>
+                                    <li>Select a project type.
+                                    For example, to <a href="../ide/getting-started-with-cpp-in-visual-studio?view=vs-2017" data-linktype="relative-path" class="x-hidden-focus">build a C++ app</a>, click <strong>Installed</strong>, expand <strong>Visual C++</strong>, and then select the C++ project type that you want to build.
+                                    To <a href="../get-started/csharp/tutorial-wpf?view=vs-2017" data-linktype="relative-path">build a C# app</a>, click <strong>Installed</strong>, expand <strong>Visual C#</strong>, and then select the C# project type that you want to build.
+                                    </li>
+                                    </ol>
+                                </p>       
+                                    <h2>How to install and Run Visual Studio 2017</h2>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7EHJafw3djk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</p>
 
 								
