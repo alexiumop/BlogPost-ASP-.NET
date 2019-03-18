@@ -368,6 +368,8 @@ h7{
 			display: block;
 			-webkit-transition: -webkit-transform .7s ease;
 					transition: transform .7s ease;
+					height: 200px;
+					width: 300px;
 		}
 
 		.slide-image:hover img {
